@@ -14,14 +14,14 @@ top: auto;
 }
 @keyframes move-right {
 0% {
-transform: translateX(-20em);
+transform: translateX(20em);
 opacity: 1;
 }
 80% {
 opacity: 1;
 }
 90%, 100% {
-transform: translateX(20em);
+transform: translateX(-20em);
 opacity: 0;
 }
 }
@@ -32,7 +32,7 @@ transform: translateY(-8em);
 animation-timing-function: cubic-bezier(.51,.01,.79,.02);
 }
 15% {
-transform: translateY(8em);
+transform: translateY(8em) scaleY(2.8) scaleX(.6);
 animation-timing-function: cubic-bezier(.19,1,.7,1);
 }
 25% {
