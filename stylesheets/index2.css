@@ -1,18 +1,18 @@
 /******* SEVEN A (Arc) *******/
 .sevena .shape-container-two {
-animation: move-right 6s infinite cubic-bezier(.37,.55,.49,.67);
+animation: move-right2 6s infinite cubic-bezier(.37,.55,.49,.67);
 position: absolute;
 left: calc(50% - 4em);
 top: calc(50% - 4em);
 }
 .sevena .shape-two {
-animation: bounce 6s infinite linear;
+animation: bounce2 6s infinite linear;
 border-radius: 50%;
 position: relative;
 left: auto;
 top: auto;
 }
-@keyframes move-right {
+@keyframes move-right2 {
 0% {
 transform: translateX(-20em);
 opacity: 1;
@@ -26,13 +26,13 @@ opacity: 0;
 }
 }
 
-@keyframes bounce {
+@keyframes bounce2 {
 0% {
 transform: translateY(-8em);
 animation-timing-function: cubic-bezier(.51,.01,.79,.02);
 }
 15% {
-transform: translateY(8em);
+transform: translateY(8em) scaleY(2) scaleX(.6);
 animation-timing-function: cubic-bezier(.19,1,.7,1);
 }
 25% {
@@ -40,7 +40,7 @@ transform: translateY(-4em);
 animation-timing-function: cubic-bezier(.51,.01,.79,.02);
 }
 32.5% {
-transform: translateY(8em);
+transform: translateY(8em) scaleY(2) scaleX(.6);
 animation-timing-function: cubic-bezier(.19,1,.7,1);
 }
 40% {
@@ -48,7 +48,7 @@ transform: translateY(0em);
 animation-timing-function: cubic-bezier(.51,.01,.79,.02);
 }
 45% {
-transform: translateY(8em);
+transform: translateY(8em) scaleY(2) scaleX(.6);
 animation-timing-function: cubic-bezier(.19,1,.7,1);
 }
 50% {
@@ -56,7 +56,7 @@ transform: translateY(3em);
 animation-timing-function: cubic-bezier(.51,.01,.79,.02);
 }
 56% {
-transform: translateY(8em);
+transform: translateY(8em) scaleY(2) scaleX(.6);
 animation-timing-function: cubic-bezier(.19,1,.7,1);
 }
 60% {
@@ -64,7 +64,7 @@ transform: translateY(6em);
 animation-timing-function: cubic-bezier(.51,.01,.79,.02);
 }
 64% {
-transform: translateY(8em);
+transform: translateY(8em) scaleY(2) scaleX(.6);
 animation-timing-function: cubic-bezier(.19,1,.7,1);
 }
 66% {

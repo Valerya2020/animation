@@ -1,12 +1,12 @@
 /******* SEVEN A (Arc) *******/
 .sevena .shape-container-ten {
-animation: move-right 6s infinite cubic-bezier(.37,.55,.49,.67);
+animation: move-right 2s infinite cubic-bezier(.37,.55,.49,.67);
 position: absolute;
 left: calc(50% - 4em);
 top: calc(50% - 4em);
 }
 .sevena .shape-ten {
-animation: bounce 6s infinite linear;
+animation: bounce 2s infinite linear;
 border-radius: 50%;
 position: relative;
 left: auto;
